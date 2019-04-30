@@ -18,6 +18,7 @@ main {
     width: 80vw; 
     margin: 0 auto;
     margin-top: 10%;
+    border-radius: 15px;
 }
 
 h2 {
@@ -28,13 +29,13 @@ h2 {
     letter-spacing: 0.1rem;
 }
 
-.inputTarefa {
+.input__task {
     width: 100%;
     border-style: none;
     padding:3rem;
 }
 
-.submit {
+.submit__task {
     width: 100%;
     border-style: none;
     background-color: #ba7af8;
@@ -43,14 +44,15 @@ h2 {
     padding: 1rem;
     letter-spacing: 0.2rem;
     margin: 0; 
+    font-size: 1.2rem;
  
 }
 
-.submit:hover {
+.submit__task:hover {
     background-color: #8967ac;
 }
 
-.tarefa {
+.container__list  div {
     display: flex;
     /* flex-direction: row;  */
     align-items: center;
@@ -60,12 +62,12 @@ h2 {
     font-size: 1.2rem;
 }
 
-.tarefa button {
+.container__list button {
     border: none;
     background-color: #ffffff;
 }
 
-.tarefa button:hover {
+.container__list button:hover {
     text-transform: uppercase;
 }
 
@@ -79,4 +81,5 @@ h2 {
     background-color: #ba7af8;
     color: #ffffff;
     padding: 0.5rem;
+    text-transform: uppercase;
 }
