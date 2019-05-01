@@ -25,14 +25,27 @@ h2 {
     font-size: 1.3rem;
     font-weight:700;
     text-align: center;
-    padding: 2rem;
+    padding: 5rem;
     letter-spacing: 0.1rem;
+    border-bottom: 0.5px solid #bababa;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#inputAlert {
+    text-align: center;
+    color: red;
 }
 
 .input__task {
     width: 100%;
     border-style: none;
     padding:3rem;
+    text-align: center;
 }
 
 .submit__task {
@@ -41,15 +54,20 @@ h2 {
     background-color: #ba7af8;
     color: #ffffff;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 2rem;
     letter-spacing: 0.2rem;
     margin: 0; 
     font-size: 1.2rem;
+    border-radius: 0 0 15px 15px; 
  
 }
 
 .submit__task:hover {
-    background-color: #8967ac;
+    background-color: #a67af8;
+}
+
+.submit__task:hover {
+    background-color: #a67af8;
 }
 
 .container__list  div {
@@ -57,21 +75,24 @@ h2 {
     /* flex-direction: row;  */
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 1rem;
+    padding-left: 2rem;
     border-bottom: 0.5px solid #bababa;
     font-size: 1.2rem;
 }
 
-.container__list button {
+.container__list a {
     border: none;
     background-color: #ffffff;
 }
 
-.container__list button:hover {
+.container__list a:hover {
     text-transform: uppercase;
+    text-decoration-style: 
 }
 
 .footer {
+    display: none;
     text-align: center;
     padding: 2rem;
 }
@@ -80,6 +101,12 @@ h2 {
     border-style: none;
     background-color: #ba7af8;
     color: #ffffff;
-    padding: 0.5rem;
+    padding: 1rem;
     text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn--footer:hover {
+    background-color: #a67af8;
 }
