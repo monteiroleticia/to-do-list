@@ -95,6 +95,10 @@ a {
     text-decoration-style: 
 }
 
+.task {
+    max-width: 95%; 
+}
+
 .task, a, button, .submit__task {
     cursor: pointer;
 }
@@ -102,6 +106,7 @@ a {
 .taskDiv {
     background-color: white;
 }
+
 
 .footer {
     display: none;
