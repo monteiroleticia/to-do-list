@@ -56,7 +56,7 @@ submitForm.addEventListener('submit', function (e) {
         // marca os items feitos  
         // porque isso não funciona fora dessa função? 
         // como faz para criar alternancia?
-        itemTask.addEventListener('click', function () {
+        itemDiv.addEventListener('click', function () {
 
             itemTask.style.textDecoration = 'line-through';
             itemTask.style.fontWeight = 'bold';
@@ -65,7 +65,7 @@ submitForm.addEventListener('submit', function (e) {
 
         });
 
-        itemTask.addEventListener('dblclick', function () {
+        itemDiv.addEventListener('dblclick', function () {
 
             itemTask.style.textDecoration = 'none';
             itemTask.style.fontWeight = 'normal';
