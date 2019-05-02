@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 body {
@@ -19,7 +19,7 @@ main {
     margin: 0 auto;
     margin-top: 10%;
     border-radius: 15px;
-    max-width: 800px; 
+    max-width: 600px; 
 }
 
 h2 {
@@ -41,6 +41,7 @@ a {
     text-align: center;
     color: red;
 }
+
 
 .input__task {
     width: 100%;
@@ -71,13 +72,19 @@ a {
     background-color: #a67af8;
 }
 
+.container__list {
+    overflow: auto;
+    max-height: 90vh;
+    height: 30vh; 
+    display: none;
+}
+
 .container__list  div {
     display: flex;
     /* flex-direction: row;  */
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    padding-left: 3rem;
+    padding: 1rem 2rem 1rem 3rem;
     border-bottom: 0.5px solid #bababa;
     font-size: 1.2rem;
 }
@@ -88,6 +95,14 @@ a {
     text-decoration-style: 
 }
 
+.task, a, button, .submit__task {
+    cursor: pointer;
+}
+
+.taskDiv {
+    background-color: white;
+}
+
 .footer {
     display: none;
     text-align: center;
@@ -96,8 +111,8 @@ a {
 
 .btn--footer {
     border-style: none;
-    background-color: #ba7af8;
-    color: #ffffff;
+    background-color: white;
+    color: #ba7af8;
     padding: 1rem;
     text-transform: uppercase;
     border-radius: 5px;
@@ -105,19 +120,23 @@ a {
 }
 
 .btn--footer:hover {
-    background-color: #a67af8;
+    color:  #714999;
 }
 
 
-@media(max-width: 400px){
+@media(max-width: 480px){
 
     h2{
-        padding: 2rem;
+        padding: 3rem 2rem;
+        font-size:1.2rem;
     }
 
     .input__task {
         padding: 1.5rem;
     }
 
+    .submit__task{
+        font-size: 1rem;
+    }
 
 }
