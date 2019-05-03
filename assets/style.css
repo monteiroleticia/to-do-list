@@ -170,3 +170,23 @@ a {
     }
 
 }
+
+@media(max-width: 350px){
+
+    html {
+        font-size: 10px; 
+    }
+
+    .footer__page {
+        padding: 10px;
+    }
+/* 
+    .container__list {
+        height: 30vh;
+    } */
+
+    h2 {
+        padding: 2rem;
+    }
+
+}
